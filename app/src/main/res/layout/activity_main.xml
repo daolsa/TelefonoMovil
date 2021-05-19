@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/new_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/purple_200"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:padding="5dp"
+        android:text="@string/mensaje_inicial"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/boton1"
+            android:text="@string/uno"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton2"
+            android:text="@string/dos"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton3"
+            android:text="@string/tres"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton4"
+            android:text="@string/cuatro"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton5"
+            android:text="@string/cinco"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton6"
+            android:text="@string/seis"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton7"
+            android:text="@string/siete"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton8"
+            android:text="@string/ocho"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton9"
+            android:text="@string/nueve"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/botonc"
+            android:text="@string/c"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/boton0"
+            android:text="@string/cero"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+        <Button
+            android:id="@+id/botonArrow"
+            android:text="@string/delete"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            />
+
+
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/botonTelefono"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/stat_sys_phone_call" />
+
+</RelativeLayout>

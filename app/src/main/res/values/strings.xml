@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Telefono Movil</string>
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="c">C</string>
+    <string name="delete">&lt;</string>
+    <string name="mensaje_inicial">Número de teléfono</string>
+    <string name="error_resolver_actividad">No existe una aplicación para llamar instalada en el teléfono</string>
+    <string name="error_no_telefono">No se ha marcado ningún número</string>
+
+</resources>
